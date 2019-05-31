@@ -1,0 +1,148 @@
+/*-------------------------------*/
+/*     Topr nav styles        */
+/*-------------------------------*/
+.navbar{
+    transition: background 0.2s ease-out 0.2s;
+}
+
+/*-------------------------------*/
+/*     Sidebar nav styles        */
+/*-------------------------------*/
+
+/* width */
+.sidenav::-webkit-scrollbar {
+  display: none !important;
+}
+.sideNavContact{
+    margin-top: 200px;
+}
+.mobileSideNavImg{
+    margin-top: 120px;
+}
+.sidenav {
+    overflow-y: scroll;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1100;
+  top: 0;
+  right:0;
+      background-image: linear-gradient(to right bottom, #27ffd0, #00eeec, #00daff, #00c3ff, #00aaff, #059aff, #4087ff, #6c70ff, #7064ff, #7757ff, #7f47ff, #8931ff);
+box-shadow: 2px 0px 8px rgba(51, 51, 51, 0.25);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 25px;
+}
+.sidenavhead{
+    pointer-events: none; 
+    position: absolute;
+    top: 10px;
+    font-weight: 600;
+font-size: 14px !important;
+line-height: 22px  !important;
+color: rgba(51, 51, 51, 0.6)  !important;
+}
+
+.sidenav a, .sidenav p {
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+line-height: 38px;
+  color: #572b7f;
+  display: block;
+  transition: 0.3s;
+    font-style: normal;
+font-weight: bold;
+}
+.sidenav p{
+   font-size: 16px;
+    margin-bottom: 0px;
+    padding: 0px 15px;
+}
+.sidenav a span{
+    float: right;
+    background: #3E41BF;
+    border-radius: 2px;
+    font-size: 8px;
+}
+.sidenav a:hover {
+  color: #7f8c8d;
+    text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  right: 0px;
+  font-weight: bold;
+font-size: 28px;
+line-height: 22px;
+  margin-left: 50px;
+    color: rgba(51, 51, 51, 0.4);
+}
+
+.sidenavContent{
+    display: none;
+}
+.sidenavBottom{
+    vertical-align: bottom;
+   display: table-cell;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*-------------------------------*/
+/*       Hamburger-Cross         */
+/*-------------------------------*/
+
+.hamburger {
+  z-index: auto;
+  position: fixed;
+    display: block;
+  top: 20px;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: none;
+}
+.hamburger:hover,
+.hamburger:focus,
+.hamburger:active {
+  outline: none;
+    cursor: pointer;
+}
+
+.hamburger.is-closed .hamb-top,
+.hamburger.is-closed .hamb-middle,
+.hamburger.is-closed .hamb-bottom{
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+}
+.hamburger.is-closed .hamb-top,
+.hamburger.is-closed .hamb-middle,
+.hamburger.is-closed .hamb-bottom {
+  background-color: #1a1a1a;
+}
+.hamburger.is-closed .hamb-top { 
+  top: 7px; 
+  -webkit-transition: all .35s ease-in-out;
+}
+.hamburger.is-closed .hamb-middle {
+  top: 50%;
+  margin-top: -2px;
+}
+.hamburger.is-closed .hamb-bottom {
+  bottom: 9px;  
+  -webkit-transition: all .35s ease-in-out;
+}
+
+.hamb-menu-top{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    font-size: 11px;
+    margin-bottom: 13px;
+}
