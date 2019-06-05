@@ -1,3 +1,88 @@
+body{
+    font-family: 'Lato', sans-serif !important;
+}
+h1{
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+h2{
+    letter-spacing: 2px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mb25{
+    margin-bottom: 25px;
+}
+.mt25{
+    margin-top: 25px;
+}
+.mt45{
+    margin-top: 45px;   
+}
+.m4050{
+    margin: 40px 50px;
+}
+.m45145{
+        margin: 45px 145px;
+}
+.mb100{
+    margin-bottom: 100px;
+}
+.mt180{
+    margin-top: 180px;
+}
+
+.p30290{
+    padding: 30px 290px;
+}
+.pb35{
+    padding-bottom: 35px;
+}
+.padding15{
+    padding: 15px;
+}
+.textCenter{
+    text-align: center;
+}
+.imgCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.avatar{
+    border-radius: 50%;
+}
+.blueBackground{
+     background: #ffffff url("../images/background.png") no-repeat right;
+}
+.textBold{
+    font-weight: 600;
+}
+.textSize1{
+ font-size:  18px;
+    line-height: 28px;
+}
+.textSize2{
+    font-size: 17px;
+}
+.textColorBlue{
+    color: #27ffD0;
+}
+.textColorGrey{
+    color: #646464;
+}
+
+.textColorWhite{
+    color: white;
+    opacity: 0.7;
+}
+.horizantalLine{
+    width: 5%;
+        border-top: 4px solid #6a55ff;
+    border-radius: 50px;
+}
 /*-------------------------------*/
 /*     Topr nav styles        */
 /*-------------------------------*/
@@ -124,7 +209,7 @@ line-height: 22px;
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-  background-color: #1a1a1a;
+  background-color: #27FFD0;
 }
 .hamburger.is-closed .hamb-top { 
   top: 7px; 
@@ -145,4 +230,43 @@ line-height: 22px;
     bottom: 20px;
     font-size: 11px;
     margin-bottom: 13px;
+}
+/*-------------------------------*/
+/*           About Us            */
+/*-------------------------------*/
+.aboutImgText{
+        position: absolute;
+    top: 11px;
+    left: 46%;
+    background: white;
+    padding: 10px;
+}
+.aboutListItems {
+  list-style: none; /* Remove default bullets */
+}
+
+.aboutListItems  li::before {
+  content: "\00BA";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #6a55ff; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+    font-size: 25px;
+    position: relative; 
+    top: 6px;
+}
+
+
+
+
+
+
+/*-------------------------------*/
+/*          Media Query          */
+/*-------------------------------*/
+@media screen and (max-width: 480px) {
+    .hamburger{
+        right: 20px;
+    }
 }
