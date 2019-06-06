@@ -21,8 +21,14 @@ h2{
 .ml10{
     margin-left: 10px;
 }
+.mt10{
+    margin-top: 10px;
+}
 .mb10{
     margin-bottom: 10px;
+}
+.mt12{
+    margin-top: 12px;
 }
 .mt15{
     margin-top: 15px;
@@ -66,11 +72,26 @@ h2{
 .m45145{
         margin: 45px 145px;
 }
+.mt100{
+    margin-top: 100px;
+}
 .mb100{
     margin-bottom: 100px;
 }
+.ml150{
+    margin-left: 150px;
+}
+.mt150{
+    margin-top: 150px;
+}
 .mt180{
     margin-top: 180px;
+}
+.mb200{
+    margin-bottom: 200px !important;
+}
+.ml300{
+    margin-left: 300px;
 }
 .noPadding{
     padding: 0px;
@@ -136,6 +157,9 @@ h2{
 }
 .textOpacity{
     opacity: 0.7;
+}
+.floatRight{
+    float: right;
 }
 /*-------------------------------*/
 /*     Topr nav styles        */
@@ -390,15 +414,43 @@ line-height: 22px;
 /*            Courses            */
 /*-------------------------------*/
 .courseBox{
-        box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15);
-    margin: 70px 70px;
+            box-shadow: 0px 0px 25px rgba(51, 51, 51, 0.2);
+    margin: 100px 70px;
 }
+.verticalLine{
+        border-right: 2px solid;
+       padding: 16px 25px 0px 0px;
+    margin-right: 20px;
+}
+.starRating p{
+    font-size: 10px;
+}
+.courseBtn{
+     display: block;
+    background: transparent;
+    padding: 10px 50px;
+    color: #6A7Aff;
+    border: 1px solid #6A7Aff;
+    margin-top: 15px;
+}
+.courseDownload p{
+    font-size: 38px;
+    margin-bottom: 60px;
+}
+/*-------------------------------*/
+/*          examDetails          */
+/*-------------------------------*/
 
-
-
-
-
-
+.examDetailBox{
+        box-shadow: 0px 0px 7px rgba(51, 51, 51, 0.15);
+        padding-top: 66px;
+    padding-bottom: 64px;
+}
+.examDetailBox p{
+        color: #6A7EFF;
+    font-size: 18px;
+    margin-top: 15px;
+}
 /*-------------------------------*/
 /*          Media Query          */
 /*-------------------------------*/
