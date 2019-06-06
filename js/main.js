@@ -38,6 +38,26 @@ function includeHTML() {
     }
   }
 };
+
+
+
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 50) {
+	    $(".navbar").css("background" , "#020746");
+	  }
+
+	  else{
+		  $(".navbar").css("background" , "transparent");  	
+	  }
+  })
+})
+
+
+
+
 $(document).ready(function(){
     
   $(".imgA1, .videoCloseBtn").click(function () {

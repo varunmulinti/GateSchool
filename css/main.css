@@ -9,20 +9,59 @@ h1{
 h2{
     letter-spacing: 2px;
 }
+.btn.focus, .btn:focus, .btn:hover{
+    color: #27FFD0;
+}
+.m0{
+    margin: 0px !important;
+}
+.mt0{
+    margin-top: 0px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.mb15{
+    margin-bottom: 15px;
+}
+.mt20{
+    margin-top: 20px;
+}
 .mb20{
     margin-bottom: 20px;
 }
 .mb25{
     margin-bottom: 25px;
 }
+.mb30{
+    margin-bottom: 30px;
+}
 .mt25{
     margin-top: 25px;
+}
+.mt40{
+    margin-top: 40px;
 }
 .mt45{
     margin-top: 45px;   
 }
+.mt55{
+    margin-top: 55px;
+}
 .m4050{
     margin: 40px 50px;
+}
+.mt70{
+    margin-top: 70px;
+}
+.mb85{
+    margin-bottom: 85px;
 }
 .m45145{
         margin: 45px 145px;
@@ -33,7 +72,12 @@ h2{
 .mt180{
     margin-top: 180px;
 }
-
+.noPadding{
+    padding: 0px;
+}
+.padding20{
+    padding: 20px;
+}
 .p30290{
     padding: 30px 290px;
 }
@@ -67,8 +111,12 @@ h2{
 .textSize2{
     font-size: 17px;
 }
+.textSize3{
+    font-size: 16px;
+    line-height: 32px;
+}
 .textColorBlue{
-    color: #27ffD0;
+    color: #27ffD0 !important;
 }
 .textColorGrey{
     color: #646464;
@@ -82,6 +130,12 @@ h2{
     width: 5%;
         border-top: 4px solid #6a55ff;
     border-radius: 50px;
+}
+.inline{
+    display: inline-block
+}
+.textOpacity{
+    opacity: 0.7;
 }
 /*-------------------------------*/
 /*     Topr nav styles        */
@@ -232,6 +286,61 @@ line-height: 22px;
     margin-bottom: 13px;
 }
 /*-------------------------------*/
+/*            Footer             */
+/*-------------------------------*/
+
+.footer{
+    width: 100%;
+    background: #030545;
+}
+.footerLogo{
+    margin-left: -13px;
+}
+.footerMobile h5{
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footerMobile h4{
+    color: #8931FF;
+}
+.footerUfaber{
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footerMobile p{
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footerMobile a{
+    color: #FFFFFF;
+}
+.footerDownload p{
+    font-weight: bold;font-size: 16px;line-height: 24px;color: rgba(255, 255, 255, 0.8);
+}
+.socialLinks a{
+    color: white;
+    margin-left: 10px;
+}
+.footerHr{
+    margin-bottom: 0px;
+    width: 74%;
+    margin-top: 0px;
+    float: left;
+}
+.copyRight{
+    font-size: 15px;
+}
+.footerBtn{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 10px;
+    padding: 8px 35px;
+}
+/*-------------------------------*/
 /*           About Us            */
 /*-------------------------------*/
 .aboutImgText{
@@ -255,6 +364,34 @@ line-height: 22px;
     font-size: 25px;
     position: relative; 
     top: 6px;
+}
+.aboutBtn{
+    padding: 14px 70px;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #27ffd0, #00eeec, #00daff, #00c3ff, #00aaff, #059aff, #4087ff, #6c70ff, #7064ff, #7757ff, #7f47ff, #8931ff);
+}
+
+/*-------------------------------*/
+/*            mentors            */
+/*-------------------------------*/
+.keyFeatures{
+        padding: 0px 40px;
+}
+.joinUsBtn{
+        padding: 20px 150px;
+}
+
+
+
+/*-------------------------------*/
+/*            Courses            */
+/*-------------------------------*/
+.courseBox{
+        box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15);
+    margin: 70px 70px;
 }
 
 
