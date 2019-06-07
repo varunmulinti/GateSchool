@@ -1,6 +1,9 @@
 body{
     font-family: 'Lato', sans-serif !important;
 }
+a{
+    text-decoration: none !important;
+}
 h1{
     font-size: 45px;
     font-weight: 600;
@@ -51,6 +54,9 @@ h2{
 .mt25{
     margin-top: 25px;
 }
+.mt30{
+    margin-top: 30px;
+}
 .mt40{
     margin-top: 40px;
 }
@@ -84,6 +90,15 @@ h2{
 .mt150{
     margin-top: 150px;
 }
+.mb150{
+    margin-bottom: 150px;
+}
+.mt160{
+    margin-top: 160px;
+}
+.mt170{
+    margin-top: 170px;
+}
 .mt180{
     margin-top: 180px;
 }
@@ -101,6 +116,9 @@ h2{
 }
 .p30290{
     padding: 30px 290px;
+}
+.p60200{
+    padding: 60px 200px;
 }
 .pb35{
     padding-bottom: 35px;
@@ -142,7 +160,9 @@ h2{
 .textColorGrey{
     color: #646464;
 }
-
+.textWhite{
+    color: white;
+}
 .textColorWhite{
     color: white;
     opacity: 0.7;
@@ -450,6 +470,34 @@ line-height: 22px;
         color: #6A7EFF;
     font-size: 18px;
     margin-top: 15px;
+}
+
+/*-------------------------------*/
+/*           features            */
+/*-------------------------------*/
+.videoText{
+    font-size: 12px;
+    line-height: 20px;
+}
+.features p{
+        font-size: 18px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    margin-top: 20px;
+        line-height: 28px;
+}
+.features button{
+    background: transparent;
+    border: 1px solid #6A7EFF;
+    color: #6A7EFF;
+    font-size: 12px;
+    padding: 8px 30px;
+}
+.featuresBtn{
+    padding: 17px 63px;
+    font-size: 14px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 /*-------------------------------*/
 /*          Media Query          */
