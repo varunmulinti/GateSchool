@@ -59,10 +59,6 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    
-  $(".imgA1, .videoCloseBtn").click(function () {
-        $('#videoContent').toggleClass('introVideoRemove');
-  }); 
     $("#myCarousel").carousel({interval: 50000});
     
     $(".carousel").on("touchstart", function(event){

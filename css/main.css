@@ -123,6 +123,9 @@ h2{
 .pb35{
     padding-bottom: 35px;
 }
+.pb45{
+    padding-bottom: 45px;
+}
 .padding15{
     padding: 15px;
 }
@@ -499,6 +502,119 @@ line-height: 22px;
     word-spacing: 2px;
     letter-spacing: 1px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonialHeight{
+    min-height: 230px;
+}
+.testimonialImgBox{
+    padding: 0px 35px;
+}
+.testimonialImgBox img{
+    border-radius: 50px;
+}
+.testimonialImgBox p{
+    font-weight: 100 !important;
+    font-size: 20px !important;
+    padding: 0px !important;
+}
+
+.carousel-indicators .active{
+        background-color: #463DFF;
+}
+.carousel-indicators li{
+    border-color: #463DFF;
+}
+.fa-quote-left{
+    opacity: 0.1;
+}
+.fa-quote-right{
+    opacity: 0.1;
+    position: relative;
+    top: 40px; 
+    left: 112px;
+    transform: rotate(180deg) scaleX(-1);
+}
+.fa-quote-left{
+    position: relative;
+    bottom: 40px;right: 20px
+}
+.item h4{
+    top: 155px;
+    position: absolute;
+    left: 53px;
+    font-style: italic;
+    font-size: 16px;
+}
+.item h5{
+    position: absolute;
+    left: 18px;
+    top: 180px;
+    font-style: italic;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.item p{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    opacity: 0.9;
+    padding: 35px;
+}
+
+.testimonials{
+    width: 100%;
+    min-height: 324px;
+    background: #e9fffa
+}
+.topInverted{
+    position: absolute;
+    top: 60px;
+    opacity: 0.7;
+}
+.bottomInverted{
+    position: absolute;
+    right: 81px;
+    bottom: -30px;
+    opacity: 0.7;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-------------------------------*/
 /*          Media Query          */
 /*-------------------------------*/
