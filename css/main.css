@@ -60,6 +60,9 @@ h2{
 .mt40{
     margin-top: 40px;
 }
+.mb40{
+    margin-bottom: 40px;
+}
 .mt45{
     margin-top: 45px;   
 }
@@ -126,6 +129,9 @@ h2{
 .pb45{
     padding-bottom: 45px;
 }
+.padding1550{
+    padding: 15px 50px;
+}
 .padding15{
     padding: 15px;
 }
@@ -145,6 +151,10 @@ h2{
 }
 .textBold{
     font-weight: 600;
+}
+.textSize{
+    font-size: 20px;
+    line-height: 32px
 }
 .textSize1{
  font-size:  18px;
@@ -183,6 +193,11 @@ h2{
 }
 .floatRight{
     float: right;
+}
+.transparentBtn{
+    background-color: transparent;
+    color: #6A7Aff;
+    border: 1px solid #6A7Aff;
 }
 /*-------------------------------*/
 /*     Topr nav styles        */
@@ -273,7 +288,13 @@ line-height: 22px;
     vertical-align: bottom;
    display: table-cell;
 }
-
+.sideNavContact p{
+        font-size: 12px;
+}
+.sideNavContact img{
+        width: 150px;
+    margin-left: 15px;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -457,7 +478,7 @@ line-height: 22px;
     margin-top: 15px;
 }
 .courseDownload p{
-    font-size: 38px;
+    font-size: 32px;
     margin-bottom: 60px;
 }
 /*-------------------------------*/
@@ -502,8 +523,14 @@ line-height: 22px;
     word-spacing: 2px;
     letter-spacing: 1px;
 }
-
-
+/*-------------------------------*/
+/*              Home             */
+/*-------------------------------*/
+.landingMentor{
+        padding: 0px 250px;
+    opacity: 0.7;
+    font-weight: 600;
+}
 
 
 
@@ -530,14 +557,27 @@ line-height: 22px;
 .testimonialImgBox p{
     font-weight: 100 !important;
     font-size: 20px !important;
-    padding: 0px !important;
 }
-
+.testimonialImgBox .name{
+    padding: 0px 20px;
+    border-right: 1px solid;
+}
+.testimonialImgBox .marks{
+    padding: 0px 20px;
+}
 .carousel-indicators .active{
-        background-color: #463DFF;
+        background-color: #bcc3fb;
 }
 .carousel-indicators li{
-    border-color: #463DFF;
+        background-color: #cfddfb;
+}
+.carousel-indicators .active{
+        width: 15px;
+    height: 15px;
+}
+.carousel-indicators li{
+    width: 12px;
+    height: 12px;
 }
 .fa-quote-left{
     opacity: 0.1;
@@ -589,7 +629,7 @@ line-height: 22px;
 .bottomInverted{
     position: absolute;
     right: 81px;
-    bottom: -30px;
+    bottom: 25px;
     opacity: 0.7;
 }
     
