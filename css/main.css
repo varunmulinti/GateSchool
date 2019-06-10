@@ -75,6 +75,9 @@ h2{
 .mt70{
     margin-top: 70px;
 }
+.mt80{
+    margin-top: 80px;
+}
 .mb85{
     margin-bottom: 85px;
 }
@@ -86,6 +89,9 @@ h2{
 }
 .mb100{
     margin-bottom: 100px;
+}
+.mt135{
+    margin-top: 135px;
 }
 .ml150{
     margin-left: 150px;
@@ -212,6 +218,7 @@ h2{
     color: #6A7Aff;
     border: 1px solid #6A7Aff;
 }
+
 /*-------------------------------*/
 /*     Topr nav styles        */
 /*-------------------------------*/
@@ -769,10 +776,31 @@ color: rgba(51, 51, 51, 0.8);
     top: 50px;
     left: 305px;
 }
-
-
-
-
+.fa-long-arrow-alt-left{
+        font-size: 60px;
+    color: #27FFD0;
+}
+.playVideo{
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.playVideoDescription{
+    font-size: 16px;
+    line-height: 26px;
+        padding: 15px 25px;
+}
+.playVideoDescription .verticalLine{
+        border-right: 1px solid black;
+    padding-right: 25px;
+    margin-right: 17px;
+}
+.likeVideos{
+        margin: 30px 90px;
+}
 
 
 
