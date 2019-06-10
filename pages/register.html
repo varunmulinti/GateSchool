@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+     <!--custom css-->
+    <link rel="stylesheet" href="../css/main.css">
+    
+    
+   <!-- Muli & Lato Font CDN -->
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    <!--Fontawsome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--Jquery CDN  -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <!--custom js-->
+    <script src="../js/main.js"></script>
+    
+</head>
+<body>
+    <!-- Top Navigation -->
+    
+    <nav class="navbar navbar-fixed-top">
+        <div class="container padding20">
+            <a href="../index.html"><img class="navLogo" src="../images/logo.png"></a>
+            
+            <ul class="nav navbar-nav navbar-right mt10">
+              <li><div class="navbar-header">
+                <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
+                    <span class="hamb-top"></span>
+                    <span class="hamb-middle"></span>
+                    <span class="hamb-bottom"></span>
+                </button>
+            </div></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Top Navigation -->
+    
+    <!-- Side Navigation -->
+    
+    <div id="mySidenav" class="sidenav">
+        <div id="navContent" class="sidenavContent ">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="../index.html">Home</a>
+          <a href="../pages/courses.html">Courses</a>
+          <a href="#">Videos</a>
+          <a href="../pages/practice.html">Practice tests</a>
+          <a href="../pages/features.html">Features</a>
+          <a href="../pages/login.html">Login</a>
+            <div class="row sidenavBottom">
+                <div class="col-md-12 col-xs-12 sideNavContact">
+                    <p>DOWNLOAD THE APP</p>
+                    <img src="../images/android.png">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Side Navigation -->
+    
+    <!-- Page Content -->
+    <section class="blueBackground">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-5 backgroundWhite  mt100 noPadding signIn borderRadius10">
+                    <form class="padding3590">
+                        <div class="form-group mb25">
+                            <label for="name">Full name</label>
+                          <input type="name" class="form-control" id="name" placeholder="Enter your full name" name="name">
+                        </div>
+                        <div class="form-group mb25">
+                            <label for="email">Email ID</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter your email ID" name="email">
+                        </div>
+                        <div class="form-group mb25">
+                             <label for="Phone">Phone no.</label>
+                          <input type="number" class="form-control" id="number" placeholder="Enter your registered phone no." name="tel">
+                        </div>
+                        <div class="form-group mb25">
+                             <label for="Phone">City</label>
+                          <input type="name" class="form-control" id="city" placeholder="Enter your current city" name="city">
+                        </div>
+                        <div class="form-group mb25">
+                            <label for="Password">Create a password</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Create an alpha-numeric password" name="pwd">
+                        </div>
+                        <p class="textCenter"><a href="#">Forgot password?</a></p>
+                      </form>
+                        <div class="lightBlueBackground borderRadius10">
+                            <button class="backgroundBlue btn signBtn imgCenter aboutBtn signInBtn mb15">SIGN IN</button>
+                            <p class="textCenter">Already registered? <a href="../pages/login.html">Login</a></p>
+                        </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    <!-- page-conten -->
+
+</body>
+</html> 

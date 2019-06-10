@@ -129,12 +129,16 @@ h2{
 .pb45{
     padding-bottom: 45px;
 }
+.padding3590{
+    padding: 35px 90px;
+}
 .padding1550{
     padding: 15px 50px;
 }
 .padding15{
     padding: 15px;
 }
+
 .textCenter{
     text-align: center;
 }
@@ -146,8 +150,14 @@ h2{
 .avatar{
     border-radius: 50%;
 }
+.backgroundWhite{
+    background-color: white;
+}
 .blueBackground{
      background: #ffffff url("../images/background.png") no-repeat right;
+}
+.lightBlueBackground{
+    background-color: #e9fffa;
 }
 .textBold{
     font-weight: 600;
@@ -193,6 +203,9 @@ h2{
 }
 .floatRight{
     float: right;
+}
+.borderRadius10{
+    border-radius: 10px;
 }
 .transparentBtn{
     background-color: transparent;
@@ -531,9 +544,82 @@ line-height: 22px;
     opacity: 0.7;
     font-weight: 600;
 }
-
-
-
+/*-------------------------------*/
+/*          practice             */
+/*-------------------------------*/
+.practice p{
+    font-size: 22px;
+        line-height: 32px;
+}
+.faqBox{
+        border: 2px solid #ffe8ee;
+    border-radius: 13px;
+    padding-top: 35px;
+}
+.faqBox p{
+        padding: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.questionsPlus{
+    font-size: 16px;
+line-height: 24px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+color: #333333;
+    text-decoration: none;
+}
+.questionsPlus:before {
+  content: "\2212";
+  color: #777;
+  font-weight: bold;
+    display: inline;
+    margin-right: 10px;
+}
+.questionsPlus.collapsed:before {
+    content: '\002B';
+}
+.questionsHead{
+        background-color: #ffe8ee !important;
+        padding: 10px 65px;
+}
+.questionsHead h5{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #451B71;
+}
+.questionsHead img{
+    margin-top: -10px;
+    margin-right: 10px
+}
+.panel-body{
+    border-top: 0px !important;
+    
+}
+.panel-heading{
+    padding: 15px 15px;
+}
+.faqPanel .panel{
+        border-bottom: 1px solid #ffe8ee;
+}
+.faqPanel .outerPanel{
+    border: 2px solid #ffe8ee;
+    margin-bottom: 40px !important;
+}
+.questionsPanelDes{
+    margin: 0px 100px;
+}
+.questionsDescription{
+    font-size: 16px;
+line-height: 29px;
+    margin-left: 25px;
+color: rgba(0, 0, 0, 0.6);
+}
+a:focus, a:hover{
+    text-decoration: none;
+}
 
 
 
@@ -634,8 +720,13 @@ line-height: 22px;
 }
     
 
-
-
+.signInBtn{
+    padding: 10px 125px;
+    font-size: 14px;
+}
+.signIn .lightBlueBackground{
+        padding: 30px 0px;
+}
 
 
 
