@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+     <!--custom css-->
+    <link rel="stylesheet" href="../css/main.css">
+    
+    
+   <!-- Muli & Lato Font CDN -->
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    <!--Fontawsome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--Jquery CDN  -->
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <!--custom js-->
+    <script src="../js/main.js"></script>
+    
+</head>
+<body>
+    <!-- Top Navigation -->
+    
+    <nav class="navbar navbar-fixed-top">
+        <div class="container padding20">
+            <a href="../index.html"><img class="navLogo" src="../images/logo.png"></a>
+            
+            <ul class="nav navbar-nav navbar-right mt10">
+              <li><div class="navbar-header">
+                <button type="button" class="hamburger is-closed"  onclick="openNav()" style="z-index: auto;">
+                    <span class="hamb-top"></span>
+                    <span class="hamb-middle"></span>
+                    <span class="hamb-bottom"></span>
+                </button>
+            </div></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Top Navigation -->
+    
+    <!-- Side Navigation -->
+    
+    <div id="mySidenav" class="sidenav">
+        <div id="navContent" class="sidenavContent ">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="../index.html">Home</a>
+          <a href="../pages/courses.html">Courses</a>
+          <a href="../pages/videos.html">Videos</a>
+          <a href="../pages/practice.html">Practice tests</a>
+          <a href="../pages/features.html">Features</a>
+          <a href="../pages/login.html">Login</a>
+            <div class="row sidenavBottom">
+                <div class="col-md-12 col-xs-12 sideNavContact">
+                    <p>DOWNLOAD THE APP</p>
+                    <img src="../images/android.png">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Side Navigation -->
+    
+    <!-- Page Content -->
+    <section class="blueBackground">
+        <div class="container">
+            <div class="mt180 pb35">
+                <h1 class="textCenter textColorBlue">Sample Videos</h1>
+                <p class="textCenter textColorWhite textSize1">The best quality video content that you will ever get for GATE preparation</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container videos mt20 mobileMarginNone">
+            <i class="fas fa-filter"></i>
+            <ul class="nav nav-pills">
+                <li class="dropdown videoDropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">All Videos
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a data-toggle="pill" href="#home" class="videoMenubtn">All Videos</a></li>
+                            <li><a data-toggle="pill" href="#menu1">GS &#8544;</a></li>
+                            <li><a data-toggle="pill" href="#menu2">GS &#8545;</a></li>
+                            <li><a data-toggle="pill" href="#menu3">GS &#8546;</a></li>
+                            <li><a data-toggle="pill" href="#menu4">GS &#8547;</a></li>
+                            <li><a data-toggle="pill" href="#menu5">Current Affairs</a></li>
+                            <li><a data-toggle="pill" href="#menu6">Geography Optional</a></li>
+                            <li><a data-toggle="pill" href="#menu7">Sociology Optional</a></li>
+                            <li><a data-toggle="pill" href="#menu8">CSAT</a></li>
+                            <li><a data-toggle="pill" href="#menu9">Preparation Tips</a></li>
+                            <li><a data-toggle="pill" href="#menu10"> UPSC Hindi</a></li>
+                        </ul>
+                        
+                </li>
+            </ul>
+            <hr class="">
+            
+          <div class="tab-content videosTabContent mt45 mb60 mobileMarginNone">
+            <div id="home" class="tab-pane fade in active mb100">
+              <div class="row mb60">
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Brief History of Islam </p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> History </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3 " style="padding: 0px 5px">
+                    <iframe class="" src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                </div>
+            </div>
+                <div class="row mb60">
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Brief History of Islam </p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> History </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3 " style="padding: 0px 5px">
+                    <iframe class="" src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                </div>
+            </div>
+                <div class="row mb60">
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Brief History of Islam </p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> History </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3 " style="padding: 0px 5px">
+                    <iframe class="" src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                </div>
+            </div>
+                <div class="row mb60">
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Brief History of Islam </p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> History </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3 " style="padding: 0px 5px">
+                    <iframe class="" src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                </div>
+            </div>
+                <div class="row mb60">
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Brief History of Islam </p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> History </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3 " style="padding: 0px 5px">
+                    <iframe class="" src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                </div>
+            </div>
+                <div class="row mb90">
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Brief History of Islam </p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> History </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3 " style="padding: 0px 5px">
+                    <iframe class="" src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                </div>
+            </div>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+              <div class="row mb60">
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Brief History of Islam </p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> History </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3 " style="padding: 0px 5px">
+                    <iframe class="" src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                </div>
+            </div>
+                <div class="row mb60">
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Brief History of Islam </p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> History </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3 " style="padding: 0px 5px">
+                    <iframe class="" src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                </div>
+            </div>
+                <div class="row mb60">
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Brief History of Islam </p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> History </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3 " style="padding: 0px 5px">
+                    <iframe class="" src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                </div>
+            </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+              <div class="row mb60">
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Brief History of Islam </p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> History </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3 " style="padding: 0px 5px">
+                    <iframe class="" src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                </div>
+            </div>
+                <div class="row mb60">
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Brief History of Islam </p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> History </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3" style="padding: 0px 5px">
+                    <iframe src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                    <p style="font-size: 14px;font-weight: 600;margin-bottom: 5px">Intro to Geology and Earth Sciences</p>
+                    <p class="inline" style="font-size: 10px;opacity: 0.8;margin-right: 10px"> Current Affairs </p>&bull;<p class="inline" style="font-size: 10px;opacity: 0.8;margin-le\10px"> Atul Nayyar</p>
+                    <p style="font-size: 10px;opacity: 0.8;margin-top: 5px">80k views</p>
+                </div>
+                <div class="col-md-3 " style="padding: 0px 5px">
+                    <iframe class="" src="https://player.vimeo.com/video/321941292" width="100%"></iframe>
+                </div>
+            </div>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+              <h3>Menu 3</h3>
+              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+              <div id="menu4" class="tab-pane fade">
+              <h3>Menu 3</h3>
+              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+              <div id="menu5" class="tab-pane fade">
+              <h3>Menu 3</h3>
+              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto bea.</p>
+            </div>
+              <div id="menu6" class="tab-pane fade">
+              <h3>Menu 3</h3>
+              <p>Eaque ipsa quae ab illo inventore veriabo.</p>
+            </div>
+              <div id="menu7" class="tab-pane fade">
+              <h3>Menu 3</h3>
+              <p>Eaque ipsa quae ab illo inventore veritatis et quasi arch.</p>
+            </div>
+              <div id="menu8" class="tab-pane fade">
+              <h3>Menu 3</h3>
+              <p>Eaque ipsa quae ab illo invent.</p>
+            </div>
+              <div id="menu9" class="tab-pane fade">
+              <h3>Menu 3</h3>
+              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta .</p>
+            </div>
+              <div id="menu10" class="tab-pane fade">
+              <h3>Menu 3</h3>
+              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beat</p>
+            </div>
+          </div>
+            </div>
+    </section>
+    <section>
+            <div class="footer">
+            <div class="container footerMobile">
+                
+                <div class="row">
+                    <div class="col-md-4 col-xs-12  mt45">
+                        <img src="../images/logo.png" class="mb10">
+                        <p>India's best 24x7 GATE training institution!</p>
+                        <hr class="footerHr">
+                        <br>
+                        <h5 class="textColorBlue mt0">PRODUCT OF <span class="footerUfaber">uFaber Edutech Pvt. Ltd. </span></h5>
+                        <div class="mt15 mb15">
+                            <img src="../images/phone.png">
+                            <p class="inline ml10">+91 98564 64653</p>
+                        </div>
+                        <div class="mt15 mb15"> 
+                            <img src="../images/mail.png" class="displayBlock">
+                            <p class="inline ml10">argusÈlch@hogwarts.com</p>
+                        </div>
+                        <div class="mt15 mb15">
+                            <img src="../images/location.png" class="displayBlock mb25">
+                            <p class="inline ml10">FF-006, Art Guild House, Phoenix Market City, <br>Kurla, Mumbai - 600070.</p>
+                        </div>
+                        <div class="mt15 mb15">
+                            <img src="../images/chat.png" class="displayBlock">
+                            <button class="btn inline ml10 footerBtn">CHAT WITH US</button>
+                        </div>
+                       
+                    </div>
+                    <div class="col-md-3 col-xs-12 mt55">
+                        <div class="col-md-12 col-xs-6 noPadding">
+                            <h4 class="textBold mb15"> GATE School</h4>
+                            <p><a href="../pages/about.html">About Us</a></p>
+                            <p><a href="../pages/videos.html">Success Stories</a></p>
+                            <p><a href="../pages/mentor.html">Become a Mentor</a></p>
+                            <p><a href="../pages/Results%20and%20Testimonials.html">Guidance</a> </p>
+                            <p><a href="../pages/examDetails.html">GATE Exam Details</a> </p><br>
+                        </div>
+                    </div> 
+                    <div class="col-md-3 col-xs-12 mt55">
+                        <h4 class="textBold mb15">Our Brands</h4>
+                        <p><a href="../pages/faqs.html">IELTS Ninja</a>  </p>
+                        <p><a href="../pages/scholarship.html">UPSC Pathshala</a>  </p>
+                        <p><a href="#"> eMaester</a>  </p>
+                        <p><a href="#">The Fluent Life  </a>  </p>
+                    </div>
+                    <div class="col-md-2 col-xs-12 mt55">
+                        <h4 class="textBold mb20">Download the App</h4>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <img src="../images/android.png" width="140px;"> 
+                                <div class="socialLinks row mt40">
+                                    <a href="#" class="col-md-3 m0"><img src="../images/fb.png" width="35px;"></a>
+                                    <a href="#" class="col-md-3"><img src="../images/insta.png" width="35px;"></a>
+                                    <a href="#" class="col-md-3"><img src="../images/youtube.png" width="35px;"></a>
+                                </div><br><br>
+                            </div>
+                            
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="row mt15">
+                    <p class="textCenter copyRight">Copyright &#9400; 2018 uFaber</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- page-conten -->
+
+</body>
+</html> 

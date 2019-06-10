@@ -728,11 +728,47 @@ a:focus, a:hover{
         padding: 30px 0px;
 }
 
+.videos {
+    margin: 20px 170px;
+}
 
+.videoMenubtn {
+border-radius: 2px !important;
+        padding: 1px 11px !important;
+    font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: rgba(51, 51, 51, 0.8);
+}
+.videos .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+       background-color: #7522FF !important;
+}
 
-
-
-
+.videosTabContent {
+        margin-left: 20px;
+    margin-right: 208px;
+}
+.videoDropdown{
+    margin: 15px 30%; 
+    border: 2px solid #eee;
+}
+.videoDropdown .dropdown-toggle{
+        padding: 10px 273px 10px 13px;
+}
+.caret{
+    position: relative;
+    left: 250px;
+}
+.dropdown-menu{
+    width: 100%;
+}
+.fa-filter{
+    color: #b4aaff;
+    font-size: 23px;
+    position: relative;
+    top: 50px;
+    left: 305px;
+}
 
 
 
@@ -752,5 +788,12 @@ a:focus, a:hover{
 @media screen and (max-width: 480px) {
     .hamburger{
         right: 20px;
+    }
+    .videos .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+        background-color: transparent !important;
+        color: inherit;
+    }
+    .videos .dropdown-menu{
+        min-width: 226px;
     }
 }
